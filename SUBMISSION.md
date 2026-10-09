@@ -80,6 +80,8 @@ is documented at https://deyanju23.github.io/stellar-stream-app/.
 
 ## Submission checklist (Phase 12)
 
+- [ ] Repo settings applied: `bash scripts/setup-repo-settings.sh` (Pages,
+      topics, branch protection) — needs a repo-admin token
 - [ ] Project is not already in the approved list (search
       https://www.drips.network/wave/stellar/repos)
 - [ ] Docs site URL resolves and loads

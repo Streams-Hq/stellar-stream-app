@@ -1,0 +1,79 @@
+site_name: StellarStream
+site_description: >-
+  Continuous, linear payment streams on Stellar — application layer, SDK, and
+  indexer documentation.
+site_url: https://deyanju23.github.io/stellar-stream-app/
+repo_url: https://github.com/Deyanju23/stellar-stream-app
+repo_name: Deyanju23/stellar-stream-app
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2026 Deyanju23 — MIT licensed
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Protocol:
+      - How streaming works: protocol-mechanics.md
+      - Contract reference: contract-reference.md
+  - User guides:
+      - Sending a stream: guides/sender.md
+      - Receiving a stream: guides/recipient.md
+  - Developer guide:
+      - Local setup: developers/local-setup.md
+      - Environment variables: developers/environment.md
+      - SDK reference: developers/sdk.md
+      - Indexer API: developers/api.md
+  - Contributing: contributing.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Deyanju23/stellar-stream-app
+    - icon: fontawesome/solid/globe
+      link: https://stellar.org

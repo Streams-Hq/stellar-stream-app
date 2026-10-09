@@ -2,6 +2,10 @@
 node_modules/
 .pnpm-store/
 
+# Lockfiles — pnpm only
+package-lock.json
+yarn.lock
+
 # Build outputs
 dist/
 .next/
@@ -9,6 +13,13 @@ out/
 build/
 .turbo/
 *.tsbuildinfo
+
+# Documentation build output
+site/
+.venv/
+venv/
+__pycache__/
+.mkdocs-cache/
 
 # Environment files
 .env

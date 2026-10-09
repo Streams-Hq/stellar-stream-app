@@ -11,7 +11,7 @@ A sender locks a deposit that unlocks to the recipient every second. This repo h
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
 [![pnpm](https://img.shields.io/badge/pnpm-10.30.1-orange.svg)](https://pnpm.io/)
-[![Stellar Wave](https://img.shields.io/badge/Stellar-Wave-7B3FE4.svg)](https://www.drips.network/wave/stellar)
+[![Stellar](https://img.shields.io/badge/Stellar-Wave-7B3FE4.svg)](https://www.drips.network/wave/stellar)
 
 **[Documentation](https://deyanju23.github.io/stellar-stream-app/)** · **[Contracts repo](https://github.com/Deyanju23/stellar-stream-contract)**
 
@@ -120,7 +120,7 @@ cp indexer/.env.example indexer/.env
 
 ## Contributing
 
-Read [`CONTRIBUTING.md`](./CONTRIBUTING.md). Issues labelled `good first issue` and `Stellar Wave` are the best entry points. One logical change per pull request, Conventional Commits, green CI, one maintainer review.
+Read [`CONTRIBUTING.md`](./CONTRIBUTING.md). Issues labelled `good first issue` are the best entry points. One logical change per pull request, Conventional Commits, green CI, one maintainer review.
 
 ## License
 
